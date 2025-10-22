@@ -1,0 +1,21 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "2.0.0",
+  "description": "Sistema profissional de tickets para Discord",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["discord", "bot", "tickets", "support"],
+  "author": "Ghostzinn07 (Geff.js)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
